@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p,
+li {
+  line-height: 25px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 16px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.service-contract {
+  margin-bottom: 30px;
+}
+
+.service-contract li {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+
+.service-contract p {
+  margin-bottom: 20px;
+}
+
+.act {
+  margin-bottom: 20px;
+}
+
+.act .head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.act .flex {
+  display: flex;
+  gap: 25rem;
+}
+
+.flex .blank {
+  display: flex;
+}
+
+.flex .blank .line {
+  border-bottom: 1px solid black;
+  width: 100px;
+}
+
+.table-text {
+  margin-bottom: 40px;
+}
+
+.table-text span {
+  line-height: 32px;
+}
+
+.table-text .f-par {
+  padding-left: 20px;
+  line-height: 32px;
+}
+
+.table-text .line {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  width: 250px;
+}
+
+.table-text .line:nth-child(6) {
+  width: 80px;
+}
+
+.table-text .line:nth-child(8) {
+  width: 50px;
+}
+
+.table-text .line:nth-child(10) {
+  width: 80px;
+}
+
+.first-table {
+  margin-bottom: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.first-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.first-table table thead {
+  height: 90px;
+}
+
+.first-table table th:first-child {
+  text-align: end;
+  padding-right: 8px;
+}
+
+.first-table table tr {
+  height: 40px;
+}
+
+.first-table table tbody .series {
+  text-align: end;
+  padding-right: 8px;
+}
+
+tbody tr td:nth-child(2) {
+  text-align: center;
+}
+
+.delivery {
+  margin-bottom: 80px;
+}
+
+.delivery p {
+  margin-bottom: 15px;
+}
+
+.delivery .line {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 250px;
+}
+
+.delivery .area {
+  margin-bottom: 20px;
+}
+
+.delivery .area span:first-child {
+  padding-right: 20px;
+}
+
+.delivery .area-last {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.delivery .area-last p {
+  width: 232.31px;
+}
+
+.third-sc {
+  margin-bottom: 50px;
+}
+
+.third-sc span:first-child {
+  padding-right: 10px;
+}
+
+.third-sc .first-p {
+  margin-bottom: 20px;
+}
+
+.third-sc .line {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 30px;
+}
+
+.third-sc .line:nth-child(5) {
+  width: 60px;
+}
+
+.third-sc .n-contract {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.salary {
+  text-align: center;
+}
+
+.salary p:first-child {
+  margin-bottom: 20px;
+}
+
+.model-table {
+  margin-bottom: 130px;
+}
+
+.model-table table {
+  width: 100%;
+}
+
+.model-table table thead tr {
+  height: 40px;
+}
+
+.model-table table tbody tr {
+  text-align: center;
+}
+
+.model-table td {
+  padding: 10px 0px;
+}
+
+.model-table .model-td .first {
+  margin-bottom: 20px;
+}
+
+.model-table .model-td .first .line {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 100px;
+}
+
+.second .line {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 50px;
+}
+
+.payment {
+  margin-bottom: 40px;
+}
+
+.subscribe-table table tbody tr:first-child {
+  border-bottom: 1px solid transparent;
+}
+
+.subscribe-table table tbody td {
+ padding: 30px;
+}
