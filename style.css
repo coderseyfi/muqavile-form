@@ -83,19 +83,19 @@ body {
 .table-text .line {
   border-bottom: 1px solid black;
   display: inline-block;
-  width: 250px;
+  min-width: 250px;
 }
 
 .table-text .line:nth-child(6) {
-  width: 80px;
+  min-width: 80px;
 }
 
 .table-text .line:nth-child(8) {
-  width: 50px;
+  min-width: 50px;
 }
 
 .table-text .line:nth-child(10) {
-  width: 80px;
+  min-width: 80px;
 }
 
 .first-table {
@@ -145,7 +145,7 @@ tbody tr td:nth-child(2) {
 .delivery .line {
   display: inline-block;
   border-bottom: 1px solid black;
-  width: 250px;
+  min-width: 250px;
 }
 
 .delivery .area {
@@ -181,11 +181,11 @@ tbody tr td:nth-child(2) {
 .third-sc .line {
   display: inline-block;
   border-bottom: 1px solid black;
-  width: 30px;
+  min-width: 30px;
 }
 
 .third-sc .line:nth-child(5) {
-  width: 60px;
+  min-width: 60px;
 }
 
 .third-sc .n-contract {
@@ -228,13 +228,13 @@ tbody tr td:nth-child(2) {
 .model-table .model-td .first .line {
   display: inline-block;
   border-bottom: 1px solid black;
-  width: 100px;
+  min-width: 100px;
 }
 
 .second .line {
   display: inline-block;
   border-bottom: 1px solid black;
-  width: 50px;
+  min-width: 50px;
 }
 
 .payment {
@@ -246,5 +246,15 @@ tbody tr td:nth-child(2) {
 }
 
 .subscribe-table table tbody td {
- padding: 30px;
+  padding: 30px;
+}
+
+.last-line {
+  border-bottom: 1px solid black;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.last-td {
+  text-align: start !important;
 }
