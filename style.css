@@ -64,7 +64,7 @@ body {
 
 .flex .blank .line {
   border-bottom: 1px solid black;
-  width: 100px;
+  min-width: 100px;
 }
 
 .table-text {
